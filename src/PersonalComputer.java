@@ -35,7 +35,7 @@ public class PersonalComputer extends Product{
     }
 
     public void powerUp(){
-
+        // 只知道pc powerup了，但不知道其实是computercase presspowerbutton了，封装了。
         computercase.pressPowerButton();
         drawLogo();
     }
